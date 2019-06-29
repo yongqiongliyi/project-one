@@ -1,0 +1,24 @@
+.my_header,.my_footer{width:100%;}
+@media (min-width:992px){
+    .my_footer{height:22rem;}
+    .my_header{height:21rem;}
+}
+@media (min-width:576px) and (max-width:991px){
+    .my_footer{height:22rem;}
+    .my_header{height:21rem;}
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    width:4%;height:20%;top:40%;
+    background-color:#aaa;border-radius:0.25rem;
+}
+.carousel-indicators li{
+    width:0.8rem;height:0.8rem;
+    background:#fff;
+    border-radius:50%;
+    margin-right:10px;
+    margin-left:10px;
+}
+.carousel-indicators .active{
+    background: #7bbe60;
